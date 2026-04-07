@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia de las Computadoras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f0f4f8;
+            color: #333;
+        }
+
+        /* NAVBAR */
+        nav {
+            background: linear-gradient(90deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 5px;
+            padding: 8px 15px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+
+        nav ul li:hover {
+            background: white;
+            color: #2a5298;
+            cursor: pointer;
+        }
+
+        /* TABLE */
+        table {
+            width: 95%;
+            margin: 30px auto;
+            border-collapse: separate;
+            border-spacing: 10px;
+            background: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        th {
+            background: #2a5298;
+            color: white;
+            padding: 15px;
+            font-size: 16px;
+        }
+
+        td {
+            background: #f9fafc;
+            padding: 15px;
+            vertical-align: top;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 10px;
+            display: block;
+            margin: 0 auto 10px auto;
+            transition: transform 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        h3 {
+            color: #1e3c72;
+            margin: 5px 0;
+        }
+
+        h4 {
+            color: #444;
+            margin: 5px 0 10px 0;
+        }
+
+        h5 {
+            color: #666;
+            margin: 5px 0;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            table, tr, th, td {
+                display: block;
+                width: 95%;
+            }
+
+            th {
+                text-align: center;
+            }
+
+            td {
+                margin-bottom: 20px;
+            }
+
+            img {
+                width: 80%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Historia de las Computadoras</h1>
+        <ul>
+            <li>Primera Generación</li>
+            <li>Segunda Generación</li>
+            <li>Tercera Generación</li>
+            <li>Cuarta Generación</li>
+            <li>Quinta Generación</li>
+        </ul>
+    </nav>
+
+    <div>
+        <table>
+            <tr>
+                <th>Primera Generación</th>
+                <th>Segunda Generación</th>
+                <th>Tercera Generación</th>
+                <th>Cuarta Generación</th>
+                <th>Quinta Generación</th>
+            </tr>
+            <tr>
+                <td><img src="1.jpg" alt="Primera Generación"></td>
+                <td><img src="2.jpg" alt="Segunda Generación"></td>
+                <td><img src="3.jpeg" alt="Tercera Generación"></td>
+                <td><img src="4.jpeg" alt="Cuarta Generación"></td>
+                <td><img src="5.jpeg" alt="Quinta Generación"></td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>La primera generación (1940-1956)</h3>
+                    <h4>Tamaño y estructura</h4>
+                    <h5>Consumo y eficiencia</h5>
+                    <ul>
+                        <li>Consumían gran cantidad de electricidad.</li>
+                        <li>Se sobrecalentaban con frecuencia, causando fallas constantes.</li>
+                    </ul>
+                </td>
+                <td>
+                    <h3>Segunda generación (1956-1963)</h3>
+                    <h4>Características visibles</h4>
+                    <ul>
+                        <li>Más pequeñas que las de primera generación.</li>
+                        <li>Menor consumo de energía.</li>
+                        <li>Uso de tarjetas perforadas e impresoras.</li>
+                        <li>Menos calor gracias a los transistores.</li>
+                    </ul>
+                </td>
+                <td>
+                    <h3>Tercera generación (1964-1971)</h3>
+                    <h4>Características visibles</h4>
+                    <ul>
+                        <li>Uso de circuitos integrados (chips).</li>
+                        <li>Menor tamaño que la segunda generación.</li>
+                        <li>Mayor velocidad y eficiencia.</li>
+                    </ul>
+                </td>
+                <td>
+                    <h3>Cuarta generación (1971-presente)</h3>
+                    <h4>Características visibles</h4>
+                    <ul>
+                        <li>Tamaño reducido: computadoras personales.</li>
+                        <li>Alta velocidad de procesamiento.</li>
+                        <li>Uso de microprocesadores como Intel 4004.</li>
+                    </ul>
+                </td>
+                <td>
+                    <h3>Quinta generación (1980-presente)</h3>
+                    <h4>Características visibles</h4>
+                    <ul>
+                        <li>Uso de inteligencia artificial (IA).</li>
+                        <li>Capacidad de aprendizaje automático.</li>
+                        <li>Integración con internet y la nube.</li>
+                        <li>Altísima velocidad y gran capacidad de procesamiento.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
